@@ -1,5 +1,5 @@
 import os
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = ''
 
 from crewai import Crew, Process, Agent, Task
 from agent import researcher, analyst, writer

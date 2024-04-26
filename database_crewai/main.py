@@ -1,6 +1,6 @@
 from crewai_tools import PGSearchTool
 import os
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = ''
 
 
 

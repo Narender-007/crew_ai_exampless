@@ -3,7 +3,7 @@ from crewai import Agent, Task, Crew, Process
 from langchain.tools import DuckDuckGoSearchRun
 search_tool = DuckDuckGoSearchRun()
 import os
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = ''
 
 # Define your agents with roles and goals
 researcher = Agent(

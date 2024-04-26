@@ -10,7 +10,7 @@ from tasks import CustomTasks
 # Install duckduckgo-search for this example:
 # !pip install -U duckduckgo-search
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = ''
 
 # os.environ["OPENAI_ORGANIZATION"] = 'org-fgngWdr8MwLgakPMNAH6DFm5'
 # os.environ["OPENAI_API_KEY"] = config("OPENAI_API_KEY")

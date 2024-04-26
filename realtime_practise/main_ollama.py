@@ -6,7 +6,7 @@ from langchain.llms import Ollama
 ollama_llm = Ollama(model="mistral")
 ollama_llm_orca2 = Ollama(model="orca2")
 import os
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = ''
 
 # Define your agents with roles and goals
 researcher = Agent(

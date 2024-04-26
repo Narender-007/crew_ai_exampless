@@ -2,7 +2,7 @@ from crewai_tools import ScrapeWebsiteTool
 
 
 import os
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = ''
 
 # To enable scrapping any website it finds during it's execution
 
@@ -28,7 +28,7 @@ print(text)
 from crewai_tools import WebsiteSearchTool
 
 import os
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = ''
 
 
 # Example of initiating tool that agents can use to search across any discovered websites
